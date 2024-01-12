@@ -88,6 +88,11 @@ h1 {
     color: white;
 }
 
+.number:focus {
+    background-color: hsla(0, 0%, 71%, 0.493);
+}
+
+
 .rating-mess {
     color:hsl(25, 97%, 53%);
     background-color: hsla(212, 24%, 43%, 0.379);
