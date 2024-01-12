@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    background-color: hsl(214, 30%, 9%);
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.star-img {
+   padding: 12px;
+   background-color: hsla(212, 24%, 43%, 0.379); 
+   border-radius: 50%;
+}
+
+h1 {
+    color: white;
+}
+
+.message, .Thanks-mess {
+    color: hsl(217, 12%, 63%);
+    margin-top: -10px;
+} 
+
+.message {
+    align-self: center;
+    margin-top: 4px;
+}
+
+.center-text1 {
+    margin-left: 80px;
+}
+
+.number-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+
+.number-wrapper .number {
+    display: flex;
+    background-color: hsla(212, 24%, 43%, 0.379);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    padding: 18px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    align-self: center;
+    color: white;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 40px;
+    padding: 15px 180px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rating-mess {
+    color:hsl(25, 97%, 53%);
+    background-color: hsla(212, 24%, 43%, 0.379);
+    padding: 10px;
+    border-radius: 30px;
+    width: fit-content;
+    margin: 1rem auto;
+    font-size: 14px;
+}
+
+.rating-container {
+   text-align: center;
+   margin: 10px;
+   padding: 25px;
+}
+
+.rating-img, h1 {
+    align-self: center;
+}
+
+.Thanks-mess {
+    align-self: center;
+    padding: 10px;
+}
+
+.center-text {
+    margin-left: 110px;
+}
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
